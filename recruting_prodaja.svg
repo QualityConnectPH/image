@@ -1,0 +1,29 @@
+<svg width="600" height="1200" viewBox="0 0 600 1200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- лого по центру сверху: центр X=300, Y=40 -->
+  <!-- ширина лого: иконка 52*1.5=78 + gap 10 + текст ~130 = ~218px -->
+  <!-- translate X = (600 - 218) / 2 = 191 -->
+  <g transform="translate(191, 40) scale(1.5)">
+
+    <!-- Квадрат иконки -->
+    <rect x="0" y="0" width="52" height="52" rx="12" fill="#C96B3B"/>
+
+    <!-- Иконка магазина -->
+    <g transform="translate(6, 6)">
+      <rect x="2" y="22" width="36" height="20" rx="3" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M2 22 L7 8 L33 8 L38 22" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="14" y="28" width="12" height="14" rx="2" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="3.5" y="26" width="8" height="6" rx="1.5" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+      <rect x="28.5" y="26" width="8" height="6" rx="1.5" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+    </g>
+
+    <!-- Текст -->
+    <text x="66" y="34"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+      font-size="20">
+      <tspan font-weight="600" fill="#111">Prodaja</tspan><tspan font-weight="800" fill="#C96B3B">Hub</tspan>
+    </text>
+
+  </g>
+
+</svg>

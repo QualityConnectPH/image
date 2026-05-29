@@ -1,0 +1,25 @@
+<svg width="600" height="1200" viewBox="0 0 600 1200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- MagacinHub logo — по центру сверху -->
+  <!-- translate X = (600 - 218) / 2 = 191 -->
+  <g transform="translate(191, 40) scale(1.5)">
+
+    <!-- Квадрат иконки — синий -->
+    <rect x="0" y="0" width="52" height="52" rx="12" fill="#1B5FA8"/>
+
+    <!-- Иконка склада/дома — из страницы: M3 9v11h18V9M3 9l9-6 9 6M9 20v-7h6v7 -->
+    <g transform="translate(5, 5) scale(1.75)">
+      <path d="M3 9v11h18V9M3 9l9-6 9 6M9 20v-7h6v7"
+        fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Текст -->
+    <text x="66" y="34"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+      font-size="20">
+      <tspan font-weight="600" fill="#111">Magacin</tspan><tspan font-weight="800" fill="#1B5FA8">Hub</tspan>
+    </text>
+
+  </g>
+
+</svg>
